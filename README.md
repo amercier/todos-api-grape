@@ -3,6 +3,8 @@ todos-api-grape
 
 Simple Todo API implemented with [Grape](http://www.ruby-grape.org/).
 
+[![Build Status](https://img.shields.io/travis/amercier/todos-api-grape/master.svg)](https://travis-ci.org/amercier/todos-api-grape)
+
 ---
 
 ```json
