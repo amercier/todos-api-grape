@@ -44,7 +44,7 @@ PUT /todos/3
 ```
 
 ```json
-HTTP 200 OK
+HTTP 204 No Content
 ```
 
 ---
@@ -54,5 +54,5 @@ DELETE /todos/3
 ```
 
 ```json
-HTTP 200 OK
+HTTP 204 No Content
 ```
