@@ -7,8 +7,7 @@ module Todos
           [
             { id: 0, title: 'Have tea with the Queen' },
             { id: 1, title: 'Circumnavigate the globe' },
-            { id: 2, title: 'Race a cheetah' },
-            { id: 3, title: 'Climb Mount Everest' }
+            { id: 2, title: 'Race a cheetah' }
           ]
         end
 
@@ -27,7 +26,7 @@ module Todos
           requires :title, type: String, desc: 'Todo title'
         end
         post do
-          { id: 0, title: 'Have tea with the Queen' }
+          { id: 3, title: 'Climb Mount Everest' }
         end
 
         desc 'Update a todo'
@@ -36,6 +35,7 @@ module Todos
           requires :title, type: String, desc: 'Todo title'
         end
         put ':id' do
+          body false
         end
 
         desc 'Delete a todo'
@@ -43,6 +43,7 @@ module Todos
           requires :id, type: String, desc: 'Todo id'
         end
         delete ':id' do
+          body false
         end
       end
     end
