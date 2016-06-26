@@ -3,6 +3,10 @@ todos-api-grape
 
 Simple Todo API implemented with [Grape](http://www.ruby-grape.org/).
 
+[![Build Status](https://img.shields.io/travis/amercier/todos-api-grape/master.svg)](https://travis-ci.org/amercier/todos-api-grape)
+[![Test Coverage](https://img.shields.io/codecov/c/github/amercier/todos-api-grape/master.svg)](https://codecov.io/github/amercier/todos-api-grape?branch=master)
+[![Dependency Status](http://img.shields.io/gemnasium/amercier/todos-api-grape.svg)](https://gemnasium.com/amercier/todos-api-grape)
+
 ---
 
 ```json
@@ -42,7 +46,7 @@ PUT /todos/3
 ```
 
 ```json
-HTTP 200 OK
+HTTP 204 No Content
 ```
 
 ---
@@ -52,5 +56,5 @@ DELETE /todos/3
 ```
 
 ```json
-HTTP 200 OK
+HTTP 204 No Content
 ```
