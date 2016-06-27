@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 gem 'grape'
+gem 'grape-activerecord'
+gem 'rake'
 
 group :test do
   gem 'codecov', require: false
